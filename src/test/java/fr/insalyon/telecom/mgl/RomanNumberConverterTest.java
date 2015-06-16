@@ -29,7 +29,7 @@ public class RomanNumberConverterTest {
   public void check() {
     assertThat(romanNumberConverter.convert(10))
       .isNotEmpty()
-      .isEqualTo("X");
+      .isEqualTo("X")
   }
   
   @Test
